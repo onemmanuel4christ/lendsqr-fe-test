@@ -1,6 +1,64 @@
-.leftbar{
-    background: #FFFFFF;
-    width: 283px;
-    min-height: 100vh;
-    padding: 30px;
+.leftbar {
+  background: #ffffff;
+  width:  283px;
+  height: calc(100vh - 120px);
+  position: sticky;
+  overflow: auto;
+  color: #545F7D;
+&::-webkit-scrollbar{
+    width: 5px;
+    background: #FFF;
+}
+&::-webkit-scrollbar-thumb{
+    background: #FFF;
+    border-radius: 5px;
+}
+
+  button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    margin-bottom: 52px;
+    margin-top: 20px;
+
+  }
+  .dashboard{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    cursor: pointer;
+    
+
+  }
+  .menu{
+    width: 100%;
+   p{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+  }
+  &__item{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    cursor: pointer;
+        &:hover{
+      background-color: #F3FCFC;
+      border-left: 3px solid #39CDCC;
+      color: #213F7D;
+    }
+   }
+  }
+ 
 }

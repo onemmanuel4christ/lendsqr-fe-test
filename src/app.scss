@@ -2,14 +2,12 @@
     max-width: 1440px;
     margin: 0 auto;
     min-height: 100vh;
-    background: #E5E5E5;
+    background: #FBFBFB;
 }
 
 .layout{
     &__wrapper{
         display: flex;
-        // background: #E5E5E5;
-        gap: 30px;
         .outlet{
             width: 100%;
         }

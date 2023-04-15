@@ -1,4 +1,14 @@
 .dashboard{
     margin: 60px;
-    background-color: #FFFFFF;
+    h1{
+        color: #213F7D;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    &__header{
+        margin: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 26px;
+    }
 }
